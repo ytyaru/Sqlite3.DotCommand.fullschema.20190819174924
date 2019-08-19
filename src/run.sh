@@ -11,6 +11,11 @@ sqlite3 :memory: \
 ".read create_0.sql" \
 ".fullschema"
 
+# --indent
+sqlite3 :memory: \
+".read create_0.sql" \
+".fullschema --indent"
+
 # .stats
 sqlite3 :memory: \
 ".read create_0.sql" \
